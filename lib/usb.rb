@@ -219,7 +219,7 @@ module USB
     elsif desc = CLASS_CODES_HASH1[base_class]
       desc + " (%02x,%02x)" % [sub_class, protocol]
     else
-      "Unkonwn(%02x,%02x,%02x)" % [base_class, sub_class, protocol]
+      "Unknown(%02x,%02x,%02x)" % [base_class, sub_class, protocol]
     end
   end
   # :startdoc:
